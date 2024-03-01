@@ -1,13 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(' https://raw.githubusercontent.com/Arsenalec23/timer/main/vladimir-anikeev-IM8ZyYaSW6g-unsplash.jpg ');
+    background-image: url(' https://raw.githubusercontent.com/Arsenalec23/timer/main/vladimir-anikeev-IM8ZyYaSW6g-unsplash.jpg '); /* URL to your sky background image */
     background-size: cover;
     background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+	height: 100vh;
+	width: 100vw;
 }
 
 .container {
@@ -36,7 +38,7 @@ h1 {
 }
 
 .unit {
-    font-size: 16px;
+    font-size: 18px;
     color: #555;
     display: inline;
     margin: 0 5px;
