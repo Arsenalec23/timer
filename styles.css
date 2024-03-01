@@ -15,7 +15,7 @@ body {
 .container {
     text-align: center;
     position: relative;
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -51,7 +51,7 @@ h1 {
     width: 640px; /* Set a maximum width */
     height: 426px;
     margin-bottom: 20px;
-    transform: scale(0.9);
+    transform: scale(0.75);
 }
 
 @media only screen and (max-width: 600px) {
