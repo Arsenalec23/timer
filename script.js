@@ -1,7 +1,7 @@
-// Target date: May 27, 2024
-var targetDate = new Date('2024-05-27').getTime();
-
 function updateCountdown() {
+    // Target date: May 27, 2024
+    var targetDate = new Date('2024-05-27').getTime();
+
     var currentDate = new Date().getTime();
 
     var timeDifference = targetDate - currentDate;
@@ -9,8 +9,8 @@ function updateCountdown() {
     var daysLeft = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
 
     // Display the countdown
-    var countdownElement = document.getElementById('countdown');
-    countdownElement.innerHTML = 'Days left until May 27, 2024: ' + daysLeft;
+    var daysElement = document.getElementById('days');
+    daysElement.innerHTML = daysLeft;
 }
 
 // Update countdown every second
