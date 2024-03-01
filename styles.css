@@ -58,6 +58,10 @@ h1 {
     .container {
         padding: 0 10px; /* Add some padding to the container */
 	text-align: center;
+	justify-content: center;
+        align-items: center;
+	height: 100vh;
+	width: 100vw;
     }
 
     .number {
