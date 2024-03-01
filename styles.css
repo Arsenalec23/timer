@@ -57,6 +57,7 @@ h1 {
     /* Adjustments for smaller screens */
     .container {
         padding: 0 10px; /* Add some padding to the container */
+	text-align: center;
     }
 
     .number {
