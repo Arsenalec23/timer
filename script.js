@@ -1,11 +1,20 @@
-function calculateDaysLeft() {
-    var targetDate = document.getElementById("targetDate").value;
-    var targetDateTime = new Date(targetDate).getTime();
-    var currentDateTime = new Date().getTime();
-    
-    var timeDifference = targetDateTime - currentDateTime;
-    var daysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+// Target date: May 27, 2024
+var targetDate = new Date('2024-05-27').getTime();
 
-    var resultElement = document.getElementById("result");
-    resultElement.innerHTML = "Days left until " + targetDate + ": " + daysLeft;
+function updateCountdown() {
+    var currentDate = new Date().getTime();
+
+    var timeDifference = targetDate - currentDate;
+
+    var daysLeft = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+    // Display the countdown
+    var countdownElement = document.getElementById('countdown');
+    countdownElement.innerHTML = 'Days left until May 27, 2024: ' + daysLeft;
 }
+
+// Update countdown every second
+setInterval(updateCountdown, 1000);
+
+// Initial update
+updateCountdown();
