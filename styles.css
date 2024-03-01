@@ -51,7 +51,7 @@ h1 {
     width: 640px; /* Set a maximum width */
     height: 426px;
     margin-bottom: 20px;
-    transform: scale(0.75);
+    transform: scale(0.85);
 }
 
 @media only screen and (max-width: 600px) {
