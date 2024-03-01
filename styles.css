@@ -69,6 +69,7 @@ h1 {
     }
 
     .tuna-fish {
-        max-width: 75%; /* Adjust maximum width for smaller screens */
+        max-width: 85%; /* Adjust maximum width for smaller screens */
+	height: auto;
     }
 }
