@@ -49,8 +49,9 @@ h1 {
 .tuna-fish {
     background-image: url(' https://raw.githubusercontent.com/Arsenalec23/timer/main/tuna.gif ');
     width: 640px; /* Set a maximum width */
-	height: 426px;
+    height: 426px;
     margin-bottom: 20px;
+    transform: scale(0.9);
 }
 
 @media only screen and (max-width: 600px) {
