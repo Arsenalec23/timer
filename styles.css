@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,6 +11,7 @@ body {
 
 .container {
     text-align: center;
+    position: relative; /* Needed for absolute positioning of tuna fish */
 }
 
 h1 {
@@ -22,13 +23,13 @@ h1 {
 }
 
 .label {
-    font-size: 18px;
+    font-size: 20px;
     color: #555;
 }
 
 .number {
     font-size: 36px;
-    color: #3BB143; /* Blue color */
+    color: #007bff; /* Blue color */
     display: inline;
     margin: 0 5px;
 }
@@ -38,4 +39,15 @@ h1 {
     color: #555;
     display: inline;
     margin: 0 5px;
+}
+
+.tuna-fish {
+    background-image: url(' https://raw.githubusercontent.com/Arsenalec23/timer/main/rocket-rocket-fish_1.gif '); /* URL to your tuna fish image */
+    width: 640px;
+    height: 426px;
+    position: absolute;
+    bottom: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
