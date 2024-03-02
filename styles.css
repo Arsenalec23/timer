@@ -56,25 +56,3 @@ h1 {
     max-width: 100%;
     height: auto;
 }
-
-@media only screen and (max-width: 600px) {
-    /* Adjustments for smaller screens */
-    .container {
-	text-align: center;
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
-    }
-
-    .number {
-        font-size: 24px; /* Decrease font size for numbers */
-    }
-
-    .unit {
-        font-size: 14px; /* Decrease font size for units */
-    }
-
-    .tuna-fish {
-        max-width: 85%; /* Adjust maximum width for smaller screens */
-	max-height: 85%;
-    }
-}
