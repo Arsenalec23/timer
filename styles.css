@@ -56,9 +56,7 @@ h1 {
 @media only screen and (max-width: 600px) {
     /* Adjustments for smaller screens */
     .container {
-        padding: 0; /* Add some padding to the container */
 	text-align: center;
-	margin: 0;
         justify-content: center; /* Center horizontally */
         align-items: center; /* Center vertically */
     }
