@@ -66,6 +66,6 @@ h1 {
 
     .unit {
         display: inline; /* Reset display property for inline behavior */
-        margin: 5px; /* Adjust margin as needed */
+        margin: 0 5px; /* Adjust margin as needed */
     }
 }
