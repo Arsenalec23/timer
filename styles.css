@@ -57,8 +57,15 @@ h1 {
     height: auto;
 }
 
-.weightChartContainer {
-    margin-top: 20px;
-    width: 100%; /* Adjust width as needed */
-    max-width: 600px; /* Set a maximum width if desired */
+@media screen and (max-width: 600px) {
+    #countdown {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .unit {
+        display: inline; /* Reset display property for inline behavior */
+        margin: 5px; /* Adjust margin as needed */
+    }
 }
