@@ -33,14 +33,14 @@ h1 {
 }
 
 .number {
-    font-size: 36px;
+    font-size: 24px;
     color: #007bff;
     display: inline;
     margin: 0 5px;
 }
 
 .unit {
-    font-size: 18px;
+    font-size: 14px;
     color: #555;
     display: inline;
     margin: 0 5px;
@@ -55,17 +55,4 @@ h1 {
 .tuna-fish img {
     max-width: 100%;
     height: auto;
-}
-
-@media screen and (max-width: 600px) {
-    .countdown {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .unit {
-        display: inline; /* Reset display property for inline behavior */
-        margin: 0 5px; /* Adjust margin as needed */
-    }
 }
