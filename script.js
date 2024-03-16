@@ -23,8 +23,60 @@ function updateCountdown() {
     secondsElement.innerHTML = ('0' + secondsLeft).slice(-2);
 }
 
+// Function to create the weight chart
+function createWeightChart() {
+    // Assume you have data for the weight of the cat for each week
+    const weightData = [
+        { month: 'Січень', weight: 4.4 },
+		{ month: 'Лютий', weight: 4.5 },
+        { month: 'Березень', weight: 4.45 },
+        { month: 'Квітень', weight: 4.5 },
+		{ month: 'Травень', weight: 4.5 },
+        // Add more data here...
+    ];
+
+    // Extracting week numbers and weights for the chart
+    const monthNumbers = weightData.map(data => data.month);
+    const weights = weightData.map(data => data.weight);
+	
+    // Get the canvas element
+    const ctx = document.getElementById('weightChart').getContext('2d');
+
+    // Create the chart
+    const chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: monthNumbers,
+            datasets: [{
+                label: 'Вес',
+                data: weights,
+                borderColor: 'blue',
+                backgroundColor: 'rgba(0, 0, 255, 0.1)', // Optional: fill color under the line
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: false,
+					min: 3,
+					max: 6,
+					stepSize: 0.05,
+					precision: 2,
+					title: {
+						display: true,
+						text: 'Вес (кг)'
+					}
+				}
+			}
+		}
+    });
+}
+
 // Update countdown every second
 setInterval(updateCountdown, 1000);
 
 // Initial update
 updateCountdown();
+
+// Create weight chart
+createWeightChart();
