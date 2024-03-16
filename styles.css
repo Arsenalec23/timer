@@ -56,3 +56,9 @@ h1 {
     max-width: 100%;
     height: auto;
 }
+
+.weightChartContainer {
+    margin-top: 20px;
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Set a maximum width if desired */
+}
