@@ -30,6 +30,7 @@ function createWeightChart() {
 	{ month: '01.03', weight: 4.5 },
         { month: '16.03', weight: 4.45 },
         { month: '23.03', weight: 4.6 },
+	{ month: '06.04', weight: 4.7 }
         // Add more data here...
     ];
 
