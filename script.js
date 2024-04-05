@@ -27,9 +27,9 @@ function updateCountdown() {
 function createWeightChart() {
     // Assume you have data for the weight of the cat for each week
     const weightData = [
-	{ month: '02.03', weight: 4.4 },
-	{ month: '09.03', weight: 4.45 },    
-        { month: '16.03', weight: 4.5 },
+	{ month: '02.03', weight: 4.45 },
+	{ month: '09.03', weight: 4.5 },    
+        { month: '16.03', weight: 4.55 },
         { month: '23.03', weight: 4.6 },
 	{ month: '30.03', weight: 4.65 },
 	{ month: '06.04', weight: 4.7 }
