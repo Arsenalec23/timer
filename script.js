@@ -28,13 +28,17 @@ function createWeightChart() {
     // Assume you have data for the weight of the cat for each week
     const weightData = [
 	{ month: '02.03', weight: 4.45 },
-	{ month: '09.03', weight: 4.5 },    
+	{ month: '09.03', weight: 4.50 },    
         { month: '16.03', weight: 4.55 },
-        { month: '23.03', weight: 4.6 },
+        { month: '23.03', weight: 4.60 },
 	{ month: '30.03', weight: 4.65 },
-	{ month: '06.04', weight: 4.7 },
+	{ month: '06.04', weight: 4.70 },
 	{ month: '13.04', weight: 4.65 },
-	{ month: '20.04', weight: 4.75 },    
+	{ month: '20.04', weight: 4.70 },
+	{ month: '27.04', weight: 4.75 },
+	{ month: '04.05', weight: 4.80 },
+	{ month: '11.05', weight: 4.85 },
+	{ month: '18.05', weight: 4.80 },
         // Add more data here...
     ];
 
