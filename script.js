@@ -1,6 +1,6 @@
 function updateCountdown() {
     // Target date: May 27, 2024
-    var targetDate = new Date('2024-06-01T09:30:00');
+    var targetDate = new Date('2024-06-01T09:30:00').getTime();
 
     var currentDate = new Date().getTime();
 
