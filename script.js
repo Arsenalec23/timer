@@ -4,7 +4,7 @@ function updateCountdown() {
 
     var currentDate = new Date().getTime();
 
-    var timeDifference = targetDate + currentDate;
+    var timeDifference = targetDate - currentDate;
 
     var daysLeft = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
     var hoursLeft = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
