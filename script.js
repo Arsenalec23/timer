@@ -6,10 +6,10 @@ function updateCountdown() {
 
     var timeDifference = currentDate - startDate;
 
-    var daysLeft = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-    var hoursLeft = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutesLeft = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-    var secondsLeft = Math.floor((timeDifference % (1000 * 60)) / 1000);
+    var daysElapsed = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    var hoursElapsed = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutesElapsed = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+    var secondsElapsed = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
     // Display the countdown
     var daysElement = document.getElementById('days');
