@@ -1,6 +1,6 @@
 function updateCountdown() {
     // Target date: May 27, 2024
-    var targetDate = new Date('2024-05-27').getTime();
+    var targetDate = new Date('2024-06-01').Time(09:30);
 
     var currentDate = new Date().getTime();
 
@@ -39,7 +39,8 @@ function createWeightChart() {
 	{ month: '04.05', weight: 4.80 },
 	{ month: '11.05', weight: 4.85 },
 	{ month: '18.05', weight: 4.80 },
-	{ month: '25.05', weight: 4.75 }
+	{ month: '25.05', weight: 4.75 },
+	{ month: '01.06', weight: 4.80 }
         // Add more data here...
     ];
 
